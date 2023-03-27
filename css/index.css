@@ -1,0 +1,62 @@
+*{
+	margin:0;
+	padding:0;
+  box-sizing: border-box;
+	}
+.mainccom{
+display:flex ;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color:coral
+}
+.smalcom{
+	text-align: center;
+	color: aliceblue;
+	padding: 20px;
+}
+.smalcom button{
+	font-size: 4rem;
+	padding: 10px;
+	background-color: rgba(255,255,255,.2);
+	border-radius: 10px;
+	margin: 20px 0;
+	cursor: pointer;
+	border: 2px solid rgba(255, 255, 255,.3);
+	outline: none;
+	filter: grayscale();
+	transition: .3s;
+}
+
+button:hover{
+	filter: grayscale(0);
+	/* filter: brightness(100%); */
+	
+	}
+
+.smalcom p{
+	color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.iconplace{
+width:300px;
+height: 300px;
+border-radius: 10px;
+font-size: 5rem;
+	padding: 10px;
+	background-color: rgba(255,255,255,.2);
+	border-radius: 10px;
+	margin: auto;
+	margin: 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	display: none;
+}
+.smalcon i{
+	filter: brightness(0%);
+	transition: .3s;
+	
+	}
